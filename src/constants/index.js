@@ -1,0 +1,9 @@
+module.exports = {
+  CLI_NAME: 'CLI',
+  DEFAULT_PROGRAM_VERSION: '0.0.1',
+  ERRORS: {
+    FATAL_ERROR: 1,
+    COMMAND_NOT_FOUND: 127,
+    INVALID_ARGUMEN: 128,
+  },
+}
