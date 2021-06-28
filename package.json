@@ -1,0 +1,31 @@
+{
+  "name": "build-my-own-cli",
+  "version": "1.0.0",
+  "description": "Own CLI",
+  "main": "src/index.js",
+  "author": "Emanuel Osorio <emanuelosva@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.4",
+    "husky": "^6.0.0"
+  },
+  "jest": {
+    "forceExit": true
+  }
+}
